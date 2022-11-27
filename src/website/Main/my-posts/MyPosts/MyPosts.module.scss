@@ -1,0 +1,30 @@
+.padd{
+    padding: 20px;
+}
+.postWhite{
+    color: white;
+}
+.postBack{
+    background: gold;
+}
+.textMax{
+    max-width: 300px;
+    max-height: 50px;
+    border: 1px solid black;
+}
+textarea::-webkit-resizer{
+    border: 0.1px solid black;
+   background: red;
+   outline: 0.1px solid yellow;
+}
+.styling{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.buttonsStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 150px;
+}

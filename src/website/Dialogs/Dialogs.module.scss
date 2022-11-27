@@ -1,0 +1,20 @@
+.box{
+    background: rgba(132, 128, 221,0.1);
+    background: linear-gradient(90deg, rgba(136, 133, 202, 0.72) 0%, rgba(141,141,145,1) 52%, rgba(0,212,255,1) 100%);
+    display: flex;
+    flex: 1 1 100%;
+    border-radius: 6px;
+    padding: 20px;
+}
+.preitem{
+    flex: 0 1 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.messages{
+    flex: 1 1 70%;
+    display: flex;
+    flex-direction: column;
+}
+
